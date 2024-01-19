@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link type="image/x-icon" href="./favicon.png" rel="shortcut icon">
+    <title>Weather</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="container__top">
+                <p>Weather</p>
+            </div>
+            <div class="container__main weatherDiv">
+            </div>
+            <div class="container__main chooseCityDiv d-none">
+                <input type="text" placeholder="Input name of city" id="inputCity" autocomplete="off">
+                <button class="btn" for="inputCity">Find</button>
+            </div>
+            <div class="container__main errorDiv d-none">
+                <p>Thomething is broken... Try again</p>
+                <p class="info">Error info</p>
+                <button class="btn" for="inputCity" id="tryAgain">Again</button>
+            </div>
+            <div class="container__bottom">
+                <p>With ❤️ by Alex</p>
+            </div>
+        </div>
+    </main>
+    <script src="script.js" type="module"></script>
+    <script type="application/javascript" src="https://geo.ipify.org/api/v2/country,city?apiKey=at_LG2zBcVmwPMj4MaMnoeppnb6siIAT&ipAddress=8.8.8.8"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</body>
+</html>

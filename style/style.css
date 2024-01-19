@@ -1,0 +1,132 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(150.64deg, #8E2DE2 0%, #4A00E0 100%);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.container__top {
+  padding-top: 40px;
+}
+.container__top p {
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 34px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.container__main h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  color: #FFFFFF;
+  margin: 0;
+}
+.container__main p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 36px;
+}
+.container__main .changeCity {
+  font-family: "Muli", sans-serif;
+  font-size: 17px;
+  line-height: 28px;
+  text-decoration-line: underline;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  border: none;
+}
+.container__main .changeCity:hover {
+  cursor: pointer;
+}
+.container__bottom {
+  padding-bottom: 40px;
+}
+.container__bottom p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.chooseCityDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chooseCityDiv input {
+  min-width: 326px;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  margin-bottom: 36px;
+}
+.chooseCityDiv input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+.chooseCityDiv input:focus-visible {
+  outline: none;
+}
+
+.btn {
+  width: 140px;
+  height: 48px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: #4C01E0;
+  text-decoration: none;
+  border: none;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.errorDiv {
+  font-weight: 400;
+}
+.errorDiv p {
+  font-size: 20px;
+  line-height: 36px;
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+.errorDiv .info {
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 57px;
+}
+
+.d-none {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
